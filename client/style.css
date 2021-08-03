@@ -38,10 +38,11 @@ input{
 .items{
     justify-content: space-around;
 
-
+}
 body{
     padding-right: 5;
 }
+
 ul{
     background-color: rgba(255, 255, 255, 0.7);
 }
