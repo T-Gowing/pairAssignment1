@@ -1,8 +1,17 @@
+*{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
 
 li{
     display: inline-block;
     list-style-type: none;
-    padding: 5px;
+    padding: 5px;  
+}
+
+#navicon{
+    display: inline;
+    height: 30px;
 }
 
 .flex-container{
@@ -14,74 +23,73 @@ li{
 .flex-column{
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
 }
 
 #navbar{
     justify-content: space-between;
-}
-
-.main{
-    justify-content: center;
     align-items: center;
-    margin: 20%;
 }
 
-form{
-    justify-content: center;
+#logo{
+    margin: 25px;
+    display: block;
+    width: 30%;
+}
+
+.form{
+    margin: 10%;
+    display: block;
+    width: 90%;
 }
 
 input{
     margin: 20px;
-    justify-content: space-around;
 }
 
-.items{
-    justify-content: space-around;
+/* don't like hard coding the sizes but for some reason % etc isn't working */
+#searchbar{
+    border-radius: 40px;
+    width: 500px;
+    height: 50%;
+    border-width: 1px;
+    border-color: rgb(212, 211, 211);
+    border-style: solid;
+}
+
+.buttons{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: 0px;
+    padding: 10px;
+
+}
+
+input:hover{
+    box-shadow: 0 2px 10px 0 rgba(170, 170, 170, 0.4);
+}
 
 
+//////
+/* need to adjust margins around page content but changing the padding here is throwing the whole document off for some reason :(  */
 body{
     padding-right: 5;
+    
 }
 
-
-ul{
-    background-color: rgba(255, 255, 255, 0.7);
+footer{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    position: fixed;
+    /* background-color: rgb(233, 233, 233); */
+}
+#footer-bottom{
+    justify-content:space-between;
+    bottom: 1px; 
 }
   
 #list-top{
-    display: flex;
-    justify-content:start;
-    list-style-type: none;
     position: fixed;
-    left: 0;
-    bottom: 2%;
-    width: 100%; 
-}
-  
-#list-left{
-    display: flex;
-    justify-content:start;
-    list-style-type: none;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-#list-center{
-    display: flex;
-    list-style-type: none;
-    position: fixed;
-    text-align: center;
-    right: 50%;
-    bottom: 0%;
-}
-
-#list-right{
-    display: flex;
-    list-style-type: none;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    text-align: right;
+    bottom: 5%;
 }
