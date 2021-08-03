@@ -13,3 +13,4 @@ results = [
     
 
 
+module.exports = results;
