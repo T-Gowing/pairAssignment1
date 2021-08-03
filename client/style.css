@@ -1,3 +1,44 @@
+
+li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.flex-column{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#navbar{
+    justify-content: space-between;
+}
+
+.main{
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+}
+
+form{
+    justify-content: center;
+}
+
+input{
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.items{
+    justify-content: space-around;
+
+
 body{
     padding-right: 5;
 }
@@ -6,6 +47,7 @@ body{
 ul{
     background-color: rgba(255, 255, 255, 0.7);
 }
+  
 #list-top{
     display: flex;
     justify-content:start;
@@ -15,6 +57,7 @@ ul{
     bottom: 2%;
     width: 100%; 
 }
+  
 #list-left{
     display: flex;
     justify-content:start;
@@ -41,5 +84,4 @@ ul{
     right: 0;
     bottom: 0;
     text-align: right;
-
 }
