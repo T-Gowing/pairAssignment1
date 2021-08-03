@@ -11,3 +11,4 @@ results = [
     {title: 'Open Library', url: 'https://openlibrary.org/developers/api'}];
 
 
+module.exports = results;

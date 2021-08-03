@@ -1,10 +1,10 @@
 const express = require('express')
 const app = express()
 
-//const searchItems = require('./data/results.js')
+const searchItems = require('./data/results.js')
 
 const randomSearchItem = () =>{
-    let idx = Math.floor(Math.random()*qhote.length);
+    let idx = Math.floor(Math.random()*results.length);
     return searchItems[idx];
 }
 
