@@ -1,0 +1,28 @@
+{
+  "name": "pairassignment1",
+  "version": "1.0.0",
+  "description": "Google search engine - Parth and Tegan",
+  "main": "index.js",
+  "scripts": {
+      "dev": "concurrently \"watchify ./index.js -o bundle.js\" \"-m http.server\"",
+      "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T-Gowing/pairassignment1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T-Gowing/pairassignment1/issues"
+  },
+  "homepage": "https://github.com/T-Gowing/pairassignment1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12"
+  }
+}
