@@ -1,7 +1,8 @@
-const { text } = require("express");
 
-const btn = document.querySelector('button')
-const btnRandom = document.querySelector('button')
+
+const btn = document.querySelector('#btn')
+const btnRandom = document.getElementById('btn-random')
+const text = document.getElementById('text')
 
 const randomSearchItem = () => {
     fetch('http://localhost:3000/results/random')
@@ -24,3 +25,5 @@ const renderResult = resultText => {
 }
 
 btnRandom.addEventListener('click', randomSearchItem);
+
+randomSearchItem();
