@@ -41,5 +41,9 @@ http-server
 
 ### Future Improvements
 - Responsive Design
--Assistive features
+- Assistive features
+---
+### Authors
+- [Tegan](https://github.com/T-Gowing)
+- [Parth](https://github.com/partyzl) 
 
