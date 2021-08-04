@@ -34,6 +34,7 @@ http-server
 ---
 ### Challenges
 - Fine-tunning the alignments of nav bar and footer contents
+- Displaying the data on the DOM in a smoother way
 ---
 ### Future Improvements
 - Responsive Design
