@@ -25,5 +25,6 @@ const renderResult = resultText => {
 }
 
 btnRandom.addEventListener('click', randomSearchItem);
+btn.addEventListener('click', readAllResults);
 
 randomSearchItem();
