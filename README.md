@@ -33,6 +33,7 @@ http-server
 ### Wins
 - Backend was fairly easy to set up
 - Design is a fairly close match to the google homepage
+- Simple test suite working to check status codes of each API endpoint
 
 ### Challenges
 - Fine-tunning the alignments of nav bar and footer contents
@@ -40,4 +41,5 @@ http-server
 
 ### Future Improvements
 - Responsive Design
-- Assistive features
+-Assistive features
+
