@@ -30,19 +30,19 @@ http-server
 6. Copy and paste the given URL into your browser and your application will be up and running
 
 
-###Wins
+### Wins
 - Backend was fairly easy to set up
 - Design is a fairly close match to the google homepage
 
 
 
 
-###Challenges
+### Challenges
 -Fine-tunning the alignments of nav bar and footer contents
 
 
 
 
-###Future Improvements
+### Future Improvements
 -Responsive Design
 -Assistive features
