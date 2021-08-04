@@ -45,6 +45,7 @@ li{
 
 input{
     margin: 20px;
+    font-size: 15px;
 }
 
 /* don't like hard coding the sizes but for some reason % etc isn't working */
@@ -70,7 +71,7 @@ input:hover{
 }
 
 
-//////
+
 /* need to adjust margins around page content but changing the padding here is throwing the whole document off for some reason :(  */
 body{
     padding-right: 5;
