@@ -1,7 +1,11 @@
+const http = require("http");
 const express = require('express')
 const app = express()
+const cors = require('cors');
+const searchItems = require('../data/results')
 
-const searchItems = require('../data/results.js')
+app.use(cors());
+
 
 const randomSearchItem = () =>{
     let idx = Math.floor(Math.random()*results.length);
@@ -19,6 +23,6 @@ app.get('/results/random', (req,res) =>{
     res.send(result);
 })
 
-
+//requestListener();
 
 module.exports = app;
