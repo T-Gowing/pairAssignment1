@@ -4,6 +4,11 @@ const btn = document.querySelector('#btn')
 const btnRandom = document.getElementById('btn-random')
 const text = document.getElementById('text')
 const textAll = document.getElementById('text-all')
+const searchBar = document.getElementById('searchbar');
+
+searchBar.addEventListener('keyup', (e)=>{
+    console.log(e);
+})
 
 const randomSearchItem = () => {
     fetch('http://localhost:3000/results/random')
@@ -19,19 +24,21 @@ const readAllResults = () => {
     .catch(console.warn());
 }
 
-const renderResult = resultText => {
-    const result = document.createElement('p');
-    result.textContent =resultText;
-    text.appendChild(result);
-}
 
 const renderAllResults = resultText => {
     const result = document.createElement('p');
     result.textContent =resultText;
     textAll.appendChild(result);
 }
-
-const visitRandomAPI = () =>{
+const renderResult = resultText => {
+    const result = document.createElement('p');
+    if(result){
+        result.remove();
+    }
+    result.textContent =resultText;
+    text.appendChild(result);
+}
+    const visitRandomAPI = () =>{
     window.location = randomSearchItem;
 }
 
