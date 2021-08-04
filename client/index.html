@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script defer src="front.js"></script>
   <link rel="stylesheet" href="style.css" type="text/css">
+  <!-- <link rel='favicon' type='image.png' href='images/favicon.png'>  FAVICON NOT WORKING -->
   <title>Google</title>
 
 </head>
@@ -23,49 +24,50 @@
             <ul>
                 <li>Gmail</li>
                 <li>Images</li>
-                <li id = 'navicon'><img src='images/capture.jpg'></li>
+                <li><img src='images/navicon.JPG' id = 'navicon'></li>
             </ul>
         </section>
     </header>
 
     <section class = 'flex-container'>
-        <div>
-            <img src="images/logo.JPG">
-        </div>
+        <img src="images/logo.png" id='logo'>
     </section>
 
     <section class='flex-container'>
-        <form class='flex-column' class='main'>
-            <section class='items'>
-                <input type='text'>
+        <form class='flex-column' class='form'>
+            <section class='items' >
+                <input type='text' id='searchbar'>
             </section>
             <section class ='items'>
-                <input type="button" value="Search">
-                <input type="button" value="I'm feeling lucky!">
+                <input type="button" value="Google Search" class= 'buttons'>
+                <input type="button" value="I'm Feeling Lucky!" class= 'buttons'>
             </section>
         </form>
     </section>
 
-<footer id="footer-top">
-        <ul id="list-top">
-            <li>United Kingdom</li>
-        </ul>
-    </footer>
-    <footer id="footer-bottom">
-        <ul id="list-left">
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search Works</li>
-        </ul>
-        <ul id="list-center">
-            <li>Carbon Neutral since 2007</li>
-        </ul>
-        <ul id="list-right">
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
-    </footer>
+    <section>
+        <footer id="footer-top">
+            <ul id="list-top">
+                <li>United Kingdom</li>
+            </ul>
+        </footer>
+        <footer id="footer-bottom">
+            <ul id="list-left">
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search Works</li>
+            </ul>
+            <ul id="list-center">
+                <li><a href='https://sustainability.google/commitments-europe/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=' target='_blank'>🌱Carbon Neutral since 2007</a></li>
+            </ul>
+            <ul id="list-right">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </footer>
+    </section>
+
   
 
 </body>
