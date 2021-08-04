@@ -33,11 +33,11 @@ http-server
 ### Wins
 - Backend was fairly easy to set up
 - Design is a fairly close match to the google homepage
----
+--
 ### Challenges
 - Fine-tunning the alignments of nav bar and footer contents
 - Displaying the data on the DOM in a smoother way
----
+--
 ### Future Improvements
 - Responsive Design
 - Assistive features
