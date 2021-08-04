@@ -14,10 +14,6 @@ li{
     height: 30px;
 }
 
-searchbar.placeholder{
-    transform: rotate(20deg);
-}
-
 .flex-container{
     display: flex;
     flex-flow: row nowrap;
@@ -47,8 +43,8 @@ searchbar.placeholder{
     width: 90%;
 }
 
-input{
-    margin: 20px;
+button{
+    margin: 10px;
     font-size: 15px;
 }
 
@@ -56,10 +52,11 @@ input{
 #searchbar{
     border-radius: 40px;
     width: 500px;
-    height: 50%;
+    height: 60%;
     border-width: 1px;
     border-color: rgb(212, 211, 211);
     border-style: solid;
+    margin: 10px;
 }
 
 .buttons{
@@ -70,7 +67,7 @@ input{
 
 }
 
-input:hover{
+input:hover, button:hover{
     box-shadow: 0 2px 10px 0 rgba(170, 170, 170, 0.4);
 }
 

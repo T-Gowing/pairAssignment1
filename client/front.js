@@ -1,5 +1,3 @@
-
-
 const btn = document.querySelector('#btn')
 const btnRandom = document.getElementById('btn-random')
 const text = document.getElementById('text')
