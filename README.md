@@ -1,5 +1,5 @@
 ---
-# Pear Assignment
+# Pear Assignment.
 ---
 ## How to get up and running in your local machine
 
