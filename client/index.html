@@ -1,75 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script defer src="front.js"></script>
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <!-- <link rel='favicon' type='image.png' href='images/favicon.png'>  FAVICON NOT WORKING -->
-  <title>Google</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script defer src="front.js"></script>
+    <!-- <link rel='favicon' type='image.png' href='images/favicon.png'>  FAVICON NOT WORKING -->
+    <title>Google</title>
+  </head>
 
-</head>
-
-<body>
-
-    <header class = 'flex-container' id='navbar'>
-        <section>
-            <ul>
-                <li>About</li>
-                <li>Store</li>
-            </ul>
-        </section>
-        <section>
-            <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li><img src='images/navicon.JPG' id = 'navicon'></li>
-            </ul>
-        </section>
+  <body>
+    <header class="flex-container" id="navbar">
+      <section>
+        <ul>
+          <li>About</li>
+          <li>Store</li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>Gmail</li>
+          <li>Images</li>
+          <li><img src="images/navicon.JPG" id="navicon" /></li>
+        </ul>
+      </section>
     </header>
 
-    <section class = 'flex-container'>
-        <img src="images/logo.png" id='logo'>
+    <section class="flex-container">
+      <img src="images/logo.png" id="logo" />
     </section>
 
-    <section class='flex-container'>
-        <form class='flex-column' class='form'>
-            <section class='items' >
-                <input type='text' id='searchbar' placeholder='   ϙ'>
-            </section>
-            <section class ='items'>
-                <input type="button" value="Google Search" class= 'buttons'>
-                <input type="button" value="I'm Feeling Lucky!" class= 'buttons'>
-            </section>
-        </form>
+    <section class="flex-container">
+      <form class="flex-column" class="form">
+        <section class="items">
+          <input type="text" id="searchbar"placeholder='   ϙ'/>
+        </section>
+        <section class="items">
+          <input id="btn" type="submit" value="Google Search" class="buttons" />
+          <input id="btn-random" type="submit" value="I'm Feeling Lucky!" class="buttons"/>
+        </section>
+      </form>
     </section>
 
     <section>
-        <footer id="footer-top">
-            <ul id="list-top">
-                <li>United Kingdom</li>
-            </ul>
-        </footer>
-        <footer id="footer-bottom">
-            <ul id="list-left">
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>How Search Works</li>
-            </ul>
-            <ul id="list-center">
-                <li><a href='https://sustainability.google/commitments-europe/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=' target='_blank'>🌱Carbon Neutral since 2007</a></li>
-            </ul>
-            <ul id="list-right">
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
-            </ul>
-        </footer>
+      <h1 id="text"></h1>
     </section>
 
-  
-
-</body>
-
+    <section>
+      <footer id="footer-top">
+        <ul id="list-top">
+          <li>United Kingdom</li>
+        </ul>
+      </footer>
+      <footer id="footer-bottom">
+        <ul id="list-left">
+          <li>Advertising</li>
+          <li>Business</li>
+          <li>How Search Works</li>
+        </ul>
+        <ul id="list-center">
+          <li>
+            <a
+              href="https://sustainability.google/commitments-europe/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content="
+              target="_blank"
+              >🌱Carbon Neutral since 2007</a
+            >
+          </li>
+        </ul>
+        <ul id="list-right">
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Settings</li>
+        </ul>
+      </footer>
+    </section>
+  </body>
 </html>
