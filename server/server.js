@@ -21,4 +21,4 @@ app.get('/results/random', (req,res) =>{
 
 
 
-module.exports = server;
+module.exports = app;
