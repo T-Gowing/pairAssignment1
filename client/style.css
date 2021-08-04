@@ -45,6 +45,7 @@ li{
 
 input{
     margin: 20px;
+    font-size: 15px;
 }
 
 /* don't like hard coding the sizes but for some reason % etc isn't working */

@@ -4,7 +4,7 @@ Google search engine - Parth and Tegan
 Installation
 
 
-Useage
+Usage
 - Go to the client folder and pen index.js in your browser
 - In your terminal, cd into the server folder and run 'node server.js'
 
