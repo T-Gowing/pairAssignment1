@@ -1,6 +1,5 @@
 ---
 # Pear Assignment
-Tegan & Parth
 ---
 ## How to get up and running in your local machine
 
